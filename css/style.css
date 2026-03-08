@@ -15,6 +15,10 @@
 
   --text-primary-color: #222222;
   --text-secondary-color:#FFFFFF;
+
+  --title-weight: 700;
+  --text-weight: 400;
+  --menu-text-weight: 500;
 }
 
 body,
@@ -33,6 +37,3 @@ button {
   box-sizing: border-box;
 }
 
-h1{
-  color: var()
-}
