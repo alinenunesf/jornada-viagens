@@ -23,10 +23,10 @@
   font-weight: var(--title-weight);
 }
 
-.categories-cards .card.sigle-line {
+.categories-cards .card.single-line {
   padding-top: 50px;
 }
-.categories-cards .card.sigle-line.transfer img {
+.categories-cards .card.single-line.transfer img {
   margin: 10px 0 20px;
 }
 
@@ -48,6 +48,10 @@
 }
 
 @media screen and (min-width: 1440px) {
+  .categories-cards {
+    justify-content: center;
+    flex-wrap: nowrap;
+  }
   .categories-cards .card {
     width: 280px;
   }
