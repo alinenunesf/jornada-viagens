@@ -1,3 +1,7 @@
+.offers {
+  margin-bottom: 104px;
+}
+
 .offers-cards {
   display: flex;
   flex-direction: column;
@@ -7,7 +11,6 @@
 
 .offers-cards .card {
   box-sizing: border-box;
-  background-color: black;
   color: var(--text-secondary-color);
   width: 312px;
   height: 288px;
