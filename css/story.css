@@ -1,0 +1,30 @@
+.blog.story {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.story .item footer .img-item {
+  width: 100%;
+  height: 300px;
+}
+
+.story-items footer {
+  margin: 24px 0 32px;
+  width: 312px;
+}
+
+.story-items .item.arrival footer .img-item{
+  background: url(../img/blog-da-jornada/bg-card-tokyo-mobile.png) no-repeat;
+  background-size: cover;
+}
+
+.story-items .item.acomodation footer .img-item{
+  background: url(../img/blog-da-jornada/bg-card-tokyo-window-mobile.png) no-repeat;
+  background-size: cover;
+}  
+
+.item.exploring, .item.shopping, .item.gastronomy, .item.finishing p {
+  margin-bottom: 24px;
+}
