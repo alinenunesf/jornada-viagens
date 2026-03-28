@@ -1,0 +1,63 @@
+.blog.story {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.story .item footer .img-item {
+  width: 100%;
+  height: 300px;
+}
+
+.story-items footer {
+  margin: 24px 0 32px;
+  width: 312px;
+}
+
+.story-items .item.arrival footer .img-item {
+  background: url(../img/blog-da-jornada/bg-card-tokyo-mobile.png) no-repeat;
+  background-size: cover;
+}
+
+.story-items .item.acomodation footer .img-item {
+  background: url(../img/blog-da-jornada/bg-card-tokyo-window-mobile.png) no-repeat;
+  background-size: cover;
+}
+
+.item.exploring p,
+.item.shopping p,
+.item.gastronomy p,
+.item.finishing p {
+  margin-bottom: 24px;
+}
+
+@media screen and (min-width: 768px) {
+
+  .story-items .item.arrival {
+    display: flex;
+    align-items: flex-start;
+  }
+
+  .story-items .item.arrival .text-wrapper {
+    width: 312px;
+    height: 360px;
+  }
+
+  .story-items .item.arrival footer {
+    margin: 32px 24px;
+  }
+
+  .story-items .item.acomodation footer {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .story-items .item.acomodation footer .img-item {
+    background: url(../img/blog-da-jornada/bg-card-tokyo-window-tablet.png) no-repeat center;
+    background-size: cover;
+    width: 648px;
+    height: 300px;
+    margin: 24px auto;
+  }
+}
